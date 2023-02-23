@@ -27,6 +27,7 @@ void GameController::InitWindow()
 
 void GameController::InitGlobalVariable()
 {
+	window->setFramerateLimit(60);
 	rect->setSize(*new sf::Vector2f(100, 100));
 }
 
