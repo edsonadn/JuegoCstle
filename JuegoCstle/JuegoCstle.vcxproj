@@ -78,8 +78,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\edson\source\repos\JuegoCstle\JuegoCstle\SFML-2.5.1\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\edson\source\repos\JuegoCstle\JuegoCstle\SFML-2.5.1\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>SFML-2.5.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>SFML-2.5.1\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
